@@ -13,11 +13,11 @@ We begin by determining which employees are approaching eligiblity for retiremen
 
 ![Retiremenet eligible employees](Images/retirement_eligible_employees.png)
 
-Upon closer inspection we can see that our list also includes employees that have already left the company, whether through retirement or other means. To narrow down our search we will run query to give us only currently employed employees that are approaching retirement.
+Upon closer inspection we can see that our list also includes employees that have already left the company, whether through retirement or other means. To narrow down our search we will run a query to give us only currently employed employees that are approaching retirement.
 
 ![Retirement job titles](Images/retirement_job_titles.png)
 
-Here we can see that several of the eligible employees have the same job title. To truly understand the impact let's determine how many employee will be eligible foir retirement by job title.
+Here we can see that several of the eligible employees have the same job title. To truly understand the impact let's determine how many employees will be eligible for retirement by job title.
 
 ![Retirement title counts](Images/retirement_title_counts.png)
 
@@ -28,7 +28,13 @@ As a possible solution, a mentorship program staffed by eligible retiring employ
 
 ![Mentorship eligible](Images/mentorship_eligible.png)
 
-To better understand the opportunity this group would provide we need to quantify the list by job title.
+We can see that we have most of the job titles represented in this candidate pool, so this appears to be a viable option to address some of the impact of the impending "silver tsunami".
+## Summary
+The impact of the impending "silver tsunami" will be significant, which is clearly shown when looking at the retirement eligible employees by job title.
+
+![Retirement title counts](Images/retirement_title_counts.png)
+
+The mentorship program appears to address some of the need, but when you look at the actual number of eligible employees by job title, there doesn't look like the employees that were born in 1965 will provide enough coverage.
 
 ![Mentorship counts](Images/mentorship_counts.png)
 
@@ -36,6 +42,4 @@ When we compare this result with the number of eligible emlpoyees we can see how
 
 ![Additional mentorship needs](Images/retirement_gap.png)
 
-The differenc in teh tab le above demonstrates that there will still be a significant need for mentors.
-
-## Summary
+The difference in the table above demonstrates that there will still be a significant need for mentors.

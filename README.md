@@ -42,4 +42,4 @@ When we compare this result with the number of eligible emlpoyees we can see how
 
 ![Additional mentorship needs](Images/retirement_gap.png)
 
-The difference in the table above demonstrates that there will still be a significant need for mentors.
+The difference in the table above demonstrates that there will still be a significant need for additional mentors.

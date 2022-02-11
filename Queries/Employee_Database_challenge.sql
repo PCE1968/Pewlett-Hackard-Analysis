@@ -41,7 +41,7 @@ FROM unique_titles
 GROUP BY title
 ORDER BY COUNT(*) DESC;
 
--- Find number of employees that are eligible for the mentorship program
+-- Find employees that are eligible for the mentorship program
 SELECT DISTINCT ON(e.emp_no) e.emp_no,
 	e.first_name,
 	e.last_name,
@@ -65,3 +65,10 @@ INTO mentor_count
 FROM mentorship_eligibility
 GROUP BY title
 ORDER BY COUNT(*) DESC;
+
+-- Determine difference between the number of employees preparing to retire and the number of available mentors, by job title
+SELECT rt.title, rt.count - mc.count as Difference 
+INTO Retirement_gap
+FROM retiring_titles rt
+JOIN mentor_count mc
+ON rt.title = mc.title

@@ -9,7 +9,11 @@ The purpose of this analysis is to gauge the impact of impending retirements and
 ## Analysis
 
 ### Part 1, the Impact
-We begin by determining which employees are approaching eligiblity for retirement. Filtering the list of employees by their birth date seems like a good place to start and provides us with the following results:
+We begin by determining which employees are approaching eligiblity for retirement. We will start by filtering the employee list by:
+- Employee ID
+- Name
+- Job title
+- Employment dates
 
 ![Retiremenet eligible employees](Images/retirement_eligible_employees.png)
 

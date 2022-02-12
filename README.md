@@ -13,15 +13,18 @@ We begin by determining which employees are approaching eligiblity for retiremen
 - Employee ID
 - Name
 - Job title
-- Employment dates
+- Employment dates fro employees born bewteen 1952 and 1955
 
 ![Retiremenet eligible employees](Images/retirement_eligible_employees.png)
 
-Upon closer inspection we can see that our list also includes employees that have already left the company, whether through retirement or other means. To narrow down our search we will run a query to give us only currently employed employees that are approaching retirement.
+Upon closer inspection we can see that our list also includes employees that have already left the company, whether through retirement or other means. To narrow down our search we will run a query to give us only currently employed employees that are approaching retirement by adding a filter for:
+- Employment to dates that are '9999-01-01'
 
 ![Retirement job titles](Images/retirement_job_titles.png)
 
-Here we can see that several of the eligible employees have the same job title. To truly understand the impact let's determine how many employees will be eligible for retirement by job title.
+Since this makes the employment dates standard for the query we can drop those columns to focus on relevent data. Here we can see that several of the eligible employees have the same job title. To truly understand the impact let's determine how many employees will be eligible for retirement by job title. We accomplish this by running a query on the last table to determine:
+- Job Title of retirement eligible employees
+- how many of each job title
 
 ![Retirement title counts](Images/retirement_title_counts.png)
 
